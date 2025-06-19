@@ -9,10 +9,16 @@ function App() {
   return (
     <>
       <Welcome name="React Developer" />
-      <Link to="/UseState1">
-        {" "}
-        <p>UseState1</p>
-      </Link>
+      <div style={{ display: "flex", gap: "5px" }}>
+        <Link to="/UseState1">
+          {" "}
+          <p>UseState1</p>
+        </Link>
+        <Link to="/UseState2">
+          {" "}
+          <p>UseState2</p>
+        </Link>
+      </div>
     </>
   );
 }
